@@ -1,0 +1,410 @@
+
+@font-face {
+    font-family: AvertaStd;
+    font-display: swap;
+    src: url("../fonts/AvertaStd-ExtraBold.woff2") format("woff2"), url("../fonts/AvertaStd-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Bold.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Light.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Regular.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Black.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montaga;
+    font-display: swap;
+    src: url("../fonts/Montaga-Regular.woff2") format("woff2"), url("../fonts/Montaga-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Medium.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-UltraBold.woff2") format("woff2"), url("../fonts/GTWalsheimPro-UltraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Pacifico;
+    font-display: swap;
+    src: url("../fonts/Pacifico-Regular.woff2") format("woff2"), url("../fonts/Pacifico-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: AvertaStd;
+    font-display: swap;
+    src: url("../fonts/AvertaStd-ExtraBold.woff2") format("woff2"), url("../fonts/AvertaStd-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Bold.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Light.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Regular.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Black.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montaga;
+    font-display: swap;
+    src: url("../fonts/Montaga-Regular.woff2") format("woff2"), url("../fonts/Montaga-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-Medium.woff2") format("woff2"), url("../fonts/GTWalsheimPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: GTWalsheimPro;
+    font-display: swap;
+    src: url("../fonts/GTWalsheimPro-UltraBold.woff2") format("woff2"), url("../fonts/GTWalsheimPro-UltraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Pacifico;
+    font-display: swap;
+    src: url("../fonts/Pacifico-Regular.woff2") format("woff2"), url("../fonts/Pacifico-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Указываем box sizing */
+  
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+    font: 400 18px/1.1 GTWalsheimPro;
+    color: #25343D;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+  
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F8F8F8;
+  }
+  
+  ul,
+  ol {
+    padding: 0;
+    list-style-position: inside;
+  }
+  
+  ul[class],
+  ol[class] {
+    list-style: none;
+  }
+  
+  a:not([class]) {
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip-ink: auto;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  article>*+* {
+    margin-top: 1em;
+  }
+  
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+    line-height: 1;
+  }
+  
+  :root {
+    --light: #FFFFFF;
+    --dark: #25343D;
+    --grey: #848F96;
+    --main: #2569D7;
+    --green: #4E9F07;
+    --yellow: #EFB215;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 78px;
+    margin: 0 auto;
+  }
+  
+  .container_lg {
+    padding: 0 120px;
+  }
+  
+  input[type=checkbox],
+  input[type=radio] {
+    --active: #4E9F07;
+    --active-inner: #FFFFFF;
+    --focus: 2px rgba(94, 178, 21, 0.3);
+    --border: #BBC1E1;
+    --border-hover: #4E9F07;
+    --background: #FFFFFF;
+    --disabled: #F6F8FF;
+    --disabled-inner: #E1E6F9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 18px;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid var(--bc, var(--border));
+    background: var(--b, var(--background));
+    transition: background 0.3s, border-color 0.3s, box-shadow 0.2s;
+  }
+  
+  input[type=checkbox]:after,
+  input[type=radio]:after {
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+  }
+  
+  input[type=checkbox]:checked,
+  input[type=radio]:checked {
+    --b: var(--active);
+    --bc: var(--active);
+    --d-o: .3s;
+    --d-t: .6s;
+    --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+  }
+  
+  input[type=checkbox]:disabled,
+  input[type=radio]:disabled {
+    --b: var(--disabled);
+    cursor: not-allowed;
+    opacity: 0.9;
+  }
+  
+  input[type=checkbox]:disabled:checked,
+  input[type=radio]:disabled:checked {
+    --b: var(--disabled-inner);
+    --bc: var(--border);
+  }
+  
+  input[type=checkbox]:disabled+label,
+  input[type=radio]:disabled+label {
+    cursor: not-allowed;
+  }
+  
+  input[type=checkbox]:hover:not(:checked):not(:disabled),
+  input[type=radio]:hover:not(:checked):not(:disabled) {
+    --bc: var(--border-hover);
+  }
+  
+  input[type=checkbox]:focus,
+  input[type=radio]:focus {
+    box-shadow: 0 0 0 var(--focus);
+  }
+  
+  input[type=checkbox]:not(.switch),
+  input[type=radio]:not(.switch) {
+    width: 18px;
+  }
+  
+  input[type=checkbox]:not(.switch):after,
+  input[type=radio]:not(.switch):after {
+    opacity: var(--o, 0);
+  }
+  
+  input[type=checkbox]:not(.switch):checked,
+  input[type=radio]:not(.switch):checked {
+    --o: 1;
+  }
+  
+  input[type=checkbox]+label,
+  input[type=radio]+label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  
+  input[type=checkbox]:not(.switch) {
+    border-radius: 5px;
+  }
+  
+  input[type=checkbox]:not(.switch):after {
+    width: 5px;
+    height: 9px;
+    border: 2px solid var(--active-inner);
+    border-top: 0;
+    border-left: 0;
+    left: 5px;
+    top: 2px;
+    transform: rotate(var(--r, 20deg));
+  }
+  
+  input[type=checkbox]:not(.switch):checked {
+    --r: 43deg;
+  }
+  
+  input[type=checkbox].switch {
+    width: 38px;
+    border-radius: 11px;
+  }
+  
+  input[type=checkbox].switch:after {
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: var(--ab, var(--border));
+    transform: translateX(var(--x, 0));
+  }
+  
+  input[type=checkbox].switch:checked {
+    --ab: var(--active-inner);
+    --x: 17px;
+  }
+  
+  input[type=checkbox].switch:disabled:not(:checked):after {
+    opacity: 0.6;
+  }
+  
+  input[type=radio] {
+    border-radius: 50%;
+  }
+  
+  input[type=radio]:after {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: var(--active-inner);
+    opacity: 0;
+    transform: scale(var(--s, 0.7));
+  }
+  
+  input[type=radio]:checked {
+    --s: .5;
+  }
+  
+  input:-internal-autofill-selected {
+    background-color: transparent !important;
+  }
